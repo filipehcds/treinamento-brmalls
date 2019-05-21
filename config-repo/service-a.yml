@@ -4,7 +4,7 @@ server:
 app:
   config:
     property:
-      string: String Propertyyyy
+      string: String Property
       long: 100
       boolean: true
       random: ${random.long}
