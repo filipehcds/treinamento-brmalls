@@ -13,3 +13,9 @@ app:
 endpoints:
   viacep: https://viacep.com.br/ws
   viaceprestapi: http://104.45.150.159:8280/viacep
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
